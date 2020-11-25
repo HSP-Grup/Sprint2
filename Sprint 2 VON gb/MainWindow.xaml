@@ -9,16 +9,16 @@
     <Grid>
         <TextBlock HorizontalAlignment="Center"  Height="52" Margin="177,10,0,0" TextWrapping="Wrap" Text="Zahnraderparameter" VerticalAlignment="Top" Width="391" FontSize="24"/>
         <StackPanel HorizontalAlignment="Left" Height="347" Margin="10,62,0,0" VerticalAlignment="Top" Width="388">
-            <Label Content="Modul:" HorizontalAlignment="Left" Height="49" Margin="10,0,0,0" Width="110"/>
+            <Label Content="Modul:" HorizontalAlignment="Left" Height="49" Margin="10,20,0,0" Width="110"/>
             <Label Content="Zähnezahl:" HorizontalAlignment="Left" Height="51" Margin="10,20,0,0" Width="92"/>
-            <Label Content="Teilkreisdurchmesser:" Margin="10,40,0,0"/>
-            <Label Content=" Breite:" Margin="10,60,0,0"/>
+            <Label Content="Teilkreisdurchmesser:" Margin="10,20,0,0"/>
+            <Label Content=" Breite:" Margin="10,40,0,0"/>
         </StackPanel>
-        <TextBox   x:Name="md_txt"        HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="90,66,0,0" />
+        <TextBox   x:Name="md_txt"        HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="167,83,0,0" />
 
-        <TextBox  x:Name="za_txt"    HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="90,133,0,0"/>
-        <TextBox    x:Name="td_txt"       HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="153,225,0,0"/>
-        <TextBox   x:Name="bb_txt"                HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="72,310,0,0"/>
+        <TextBox  x:Name="za_txt"    HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="167,155,0,0"/>
+        <TextBox    x:Name="td_txt"       HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="167,224,0,0"/>
+        <TextBox   x:Name="bb_txt"                HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="167,294,0,0"/>
         <StackPanel HorizontalAlignment="Left" Height="271" Margin="412,62,0,0" VerticalAlignment="Top" Width="343"/>
 
         <Image Margin="455,83,84,137" Source="images.png.jpg" Stretch="Fill"/>
